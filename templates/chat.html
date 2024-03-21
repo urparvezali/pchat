@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat</title>
+</head>
+
+<body>
+
+	<p>Chatting</p>
+
+	<form action="http://localhost:8000/send" method="post">
+		<label for="sender">Sender:</label>
+		<input type="email" id="sender" name="sender" required>
+		<br>
+		<label for="receiver">Receiver:</label>
+		<input type="email" id="receiver" name="receiver" required>
+		<br>
+		<label for="message">Message:</label>
+		<input type="text" id="message" name="message" required>
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+
+</body>
+
+</html>
